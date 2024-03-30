@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: honeydew; 
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+h2:hover {
+    background-color: cadetblue;
+}
+
+div, table{
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+}
+
+
+.table-data {
+    padding: 10px;
+}
+
+
+.main_pic{
+    border-radius: 25px;
+    border-image: auto;
+    border: 1px solid grey;
+}
+
+
+ul {
+    list-style-type:disc;
+}
+
+ul > li {
+    text-align: left;
+}
+
+
+
