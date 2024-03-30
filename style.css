@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: honeydew; 
+    background-color: lemonchiffon; 
 }
 
 h2 {
@@ -24,6 +24,29 @@ div, table{
     text-align: center;
 }
 
+table::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#contact-botton {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display:inline-block
+}
+
+#contact-botton:hover {
+    cursor: pointer;
+}
+
+div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 .table-data {
     padding: 10px;
@@ -38,12 +61,63 @@ div, table{
 
 
 ul {
-    list-style-type:disc;
+    list-style-type: square;
 }
 
 ul > li {
     text-align: left;
 }
 
+.skills ul {
+    list-style-type: none;
+    padding: 12px;
+}
 
+.skills ul li {
+   text-align: center;
+}
+
+.education table {
+    flex-wrap: wrap;
+}
+
+#name:hover {
+    background-color: darksalmon;
+}
+
+@media only screen and (max-width: 1000px) {
+    h2,div, table   {
+        width: 100vw;
+        overflow: auto;
+    }  
+}
+
+
+ @media screen and (max-width:550px) {
+    .skills td, .main-header td, img {
+      display: grid;
+      width: 100vw;
+      margin: auto;
+    }
+  }
+  
+  
+  @media screen and (max-width:550px) {
+    .education table {
+      content: "";
+      clear: both;
+      display: table;
+      text-wrap: wrap;
+    }
+  }
+
+
+
+  @media screen and (max-width:420px) {
+    .skills td {
+      display: grid;
+      width: 80vw;
+      margin: auto;
+    }
+  } 
 
