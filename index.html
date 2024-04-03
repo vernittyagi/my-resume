@@ -1,193 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vernit's Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="main-header">
-        <table >
-            <tr>
-                <td class="table-data">
-                    <a href="https://github.com/vernittyagi" target="_blank">
-                        <img class="main_pic" width="300" height="300" src="resume_pic.jpg" alt="Vernit Tyagi's photo">
-                    </a>  
-                </td>
-                <td class="table-data">
-                    <h1 id="name">Vernit Tyagi</h1>
-                    <p><i>Devops Engineer at <a href="https://www.nokia.com/" target="_blank">Nokia</a></i></p>
-                    <p>I love web development & designing attractive UI/UX 🚀</p>
-                    <a href="#contact"><button id ="contact-botton">Connect With Me</button></a>
-                </td>
-            </tr>
-        </table>
-    </div> 
-    <hr>  
+    <header>
+        <div class="main-header">
+            <table>
+                <tr>
+                    <td class="table-data">
+                        <a href="https://github.com/vernittyagi" target="_blank">
+                            <img class="main_pic" width="200" height="200" src="resume_pic.jpg"
+                                alt="Vernit Tyagi's photo">
+                        </a>
+                    </td>
+                    <td class="table-data">
+                        <h1 id="name">Vernit Tyagi</h1>
+                        <p><i>Devops Engineer at <a href="https://www.nokia.com/" target="_blank">Nokia</a></i></p>
+                        <p>I love web development & designing attractive UI/UX 🚀</p>
+                        <nav>
+                            <ul>
+                                <li><a href="aboutus.html">More About Me</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact-me">Contact Me</a></li>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    </header>
 
     <!-- header ends  -->
 
-    <div class="skills">
-        <h2>Skills</h2>
-        <table border="">
-            <tr>
-                <td>
-                    <ul>
-                        <li>Python</li>
-                        <li>Data Structures & Algorithms</li>
-                        <li>Groovy</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>MySql</li>
-                        <li>Jenkins</li>
-                        <li>Git</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>JIRA</li>
-                        <li>JavaScript</li>
-                        <li>HTML</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>CSS</li>
-                        <li>Elastic Search & Kibana</li>
-                        <li>Ansible</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>OpenStack</li>
-                        <li>DevOps</li>
-                        <li>Docker & Kubernetes</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
+    <main>
+        <section id="skills">  
+                <h2>Skills</h2>
+                <table border="">
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Python</li>
+                                <li>Data Structures & Algorithms</li>
+                                <li>Groovy</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>MySql</li>
+                                <li>Jenkins</li>
+                                <li>Git</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>JIRA</li>
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>CSS</li>
+                                <li>Elastic Search & Kibana</li>
+                                <li>Ansible</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>OpenStack</li>
+                                <li>DevOps</li>
+                                <li>Docker & Kubernetes</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+        </section>
 
-    <div class= "education">
-        <h2>Education</h2>
-    <table border="">
-        <tr>
-            <th>Course</th>
-            <th>Institute</th>
-            <th>Year</th>
-            <th>Result (CGPA/Percentage)</th>
-        </tr>
-       <tr>
-        <td>M.Tech in CSE (spl with AI & ML)</td>
-        <td>VIT Vellore</td>
-        <td>2020</td>
-        <td>8.26</td>
-       </tr>
-       <tr>
-        <td>B.Tech in CSE</td>
-        <td>MIMIT Malout, Punjab</td>
-        <td>2018</td>
-        <td>70%</td>
-       </tr>
-       <tr>
-        <td>12<sup>th</sup> Grade</td>
-        <td>St. Johns Sr Secondary School, Kota</td>
-        <td>2014</td>
-        <td>75%</td>
-       </tr>
-       <tr>
-        <td>10<sup>th</sup> Grade</td>
-        <td>S.D. Public School, Muzaffarnagar</td>
-        <td>2011</td>
-        <td>9.4</td>
-       </tr>
-    </table>
-    </div>
+        <section id="education">
+                <h2>Education</h2>
+                <table border="">
+                    <tr>
+                        <th>Course</th>
+                        <th>Institute</th>
+                        <th>Year</th>
+                        <th>Result (CGPA/Percentage)</th>
+                    </tr>
+                    <tr>
+                        <td>M.Tech in CSE (spl with AI & ML)</td>
+                        <td>VIT Vellore</td>
+                        <td>2020</td>
+                        <td>8.26</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech in CSE</td>
+                        <td>MIMIT Malout, Punjab</td>
+                        <td>2018</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>12<sup>th</sup> Grade</td>
+                        <td>St. Johns Sr Secondary School, Kota</td>
+                        <td>2014</td>
+                        <td>75%</td>
+                    </tr>
+                    <tr>
+                        <td>10<sup>th</sup> Grade</td>
+                        <td>S.D. Public School, Muzaffarnagar</td>
+                        <td>2011</td>
+                        <td>9.4</td>
+                    </tr>
+                </table>
+        </section>
 
-    <div class="experience">
-        <h2>work Experience</h2>
-        <p><strong>NOKIA</strong></p>
-        <p><i><em>Sr. Engineer</em></i></p>
-        <p>2021 - Present</p>
-        <ul>
-            <li>Works in DevOps team in Nokia, including ansible for
-                infrastructure provisioning.
-                </li>
-            <li>
-                Works on CI (Continuous Integration) using Jenkins pipelines
-                Ensuring the Jenkins CI pipelines running smoothly 
-            </li>
-            <li>
-                Analyzing the Jenkins pipelines build failures using Grafana
-                dashboard and working with developers to make the pipeline
-                builds green.
-            </li>
-            <li>
-                Works on creating Jenkins Shared Library for jenkins pipelines
-                using Groovy script.
-            </li>
-            <li>
-                Worked on Openstack to perform various operations on Virtual
-                Machines such as instance creation, rebuilding etc.
-            </li>
-        </ul>
-    </div>
+        <section id="experience">
+                <h2>work Experience</h2>
+                <article>
+                    <p><strong>NOKIA</strong></p>
+                    <p><i><em>Sr. Engineer</em></i></p>
+                    <p>2021 - Present</p>
+                    <ul>
+                        <li>Works in DevOps team in Nokia, including ansible for
+                            infrastructure provisioning.
+                        </li>
+                        <li>
+                            Works on CI (Continuous Integration) using Jenkins pipelines
+                            Ensuring the Jenkins CI pipelines running smoothly
+                        </li>
+                        <li>
+                            Analyzing the Jenkins pipelines build failures using Grafana
+                            dashboard and working with developers to make the pipeline
+                            builds green.
+                        </li>
+                        <li>
+                            Works on creating Jenkins Shared Library for jenkins pipelines
+                            using Groovy script.
+                        </li>
+                        <li>
+                            Worked on Openstack to perform various operations on Virtual
+                            Machines such as instance creation, rebuilding etc.
+                        </li>
+                    </ul>
+                </article>
+        </section>
 
-    <div class="internship">
-        <h2>Internships</h2>
-        <p><strong>NOKIA</strong></p>
-        <p><i>Devops Intern</i></p>
-        <p><p>2020 - 2021</p></p>
-        <ul>
-            <li>During my Internship in the DevOps team I worked on creating
-                asserts in the ansible for ensuring the packages are installed with
-                the correct versions in the Virtual Machines and ansible live log
-                providing the log for it to the user during the playbook
-                installation at runtime</li>
-            <li>
-                I worked on creating Jenkins pipelines for Feature Branches for
-the developers to test their changes in CI environmen
-            </li>
-        </ul>
-    </div>
-
-    
-    <div class="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>IAAC (Infrastructure As a Code)</h3>
-                <p>During this project
-                    created a pipeline to test the ansible infrastructure of our
-                    organization with a single pipeline run by providing parameters to
-                    the pipeline for example - if Kubernetes version needs to be
-                    changed within the Virtual Machines in the organization then this
-                    pipeline will reserve a Virtual Machine and execute the test
-                    written using testInfra and pytest in the ansible code
+        <section id="internship">
+                <h2>Internships</h2>
+                <article>
+                    <p><strong>NOKIA</strong></p>
+                    <p><i>Devops Intern</i></p>
+                    <p>
+                    <p>2020 - 2021</p>
                     </p>
-                <ul>
-                    <li><h4><em>Technologies used</em></h4></li>
-                    <p>Jenkins, Ansible, Groovy, Openstack</p>
-                </ul>
-            </li>
-        </ul>
-    </div>
+                    <ul>
+                        <li>During my Internship in the DevOps team I worked on creating
+                            asserts in the ansible for ensuring the packages are installed with
+                            the correct versions in the Virtual Machines and ansible live log
+                            providing the log for it to the user during the playbook
+                            installation at runtime</li>
+                        <li>
+                            I worked on creating Jenkins pipelines for Feature Branches for
+                            the developers to test their changes in CI environmen
+                        </li>
+                    </ul>
+                </article>
+        </section>
 
+        <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <article>
+                            <h3>IAAC (Infrastructure As a Code)</h3>
+                            <p>During this project
+                                created a pipeline to test the ansible infrastructure of our
+                                organization with a single pipeline run by providing parameters to
+                                the pipeline for example - if Kubernetes version needs to be
+                                changed within the Virtual Machines in the organization then this
+                                pipeline will reserve a Virtual Machine and execute the test
+                                written using testInfra and pytest in the ansible code
+                            </p>
+                            <ul>
+                                <li>
+                                    <h4><em>Technologies used</em></h4>
+                                </li>
+                                <p>Jenkins, Ansible, Groovy, Openstack</p>
+                            </ul>
+                        </article>
+
+                    </li>
+                </ul>
+        </section>
+        <hr>
+    </main>
 
     <!-- Main Section Ends -->
-
-    <div class="contact">
-        <h2 id="contact">Connect With Me</h2>
-        <p>Email: <a href="mailto:vernittyagi@gmail.com">vernittyagi@gmail.com</a></p>
-        <p>GitHub: https://github.com/vernittyagi</p>
-        <a href="tel:+91-9656565612"><p>+91-9999999991</p></a>
-        <a href="aboutus.html" target="_blank"><p>About Us</p></a>
-    </div>
-
-    <br><br><br>
-
+    <section>
+        <footer id="contact-me">
+            <h2 id="contact">Connect With Me</h2>
+            <p>Email: <a href="mailto:vernittyagi@gmail.com">vernittyagi@gmail.com</a></p>
+            <p>GitHub: https://github.com/vernittyagi</p>
+            <a href="tel:+91-9656565612">
+                <p>+91-9999999991</p>
+            </a>
+            <a href="aboutus.html" target="_blank">
+                <p>About Us</p>
+            </a>
+            <a href="#">Back To Top</a>
+        <br><br><br>
+    </footer>
+    </section>
+    
 </body>
+
 </html>

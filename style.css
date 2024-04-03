@@ -12,13 +12,14 @@ body {
 
 h2 {
     background-color: burlywood;
+    text-align: center;
 }
 
 h2:hover {
     background-color: cadetblue;
 }
 
-div, table{
+section, table{
     margin: auto;
     width: 50vw;
     text-align: center;
@@ -41,7 +42,7 @@ table::after {
     cursor: pointer;
 }
 
-div::after {
+section::after {
     content: "";
     clear: both;
     display: table;
@@ -68,16 +69,16 @@ ul > li {
     text-align: left;
 }
 
-.skills ul {
+#skills ul {
     list-style-type: none;
     padding: 12px;
 }
 
-.skills ul li {
+#skills ul li {
    text-align: center;
 }
 
-.education table {
+#education table {
     flex-wrap: wrap;
 }
 
@@ -86,7 +87,7 @@ ul > li {
 }
 
 @media only screen and (max-width: 1000px) {
-    h2,div, table   {
+    h2,section, table   {
         width: 100vw;
         overflow: auto;
     }  
@@ -94,7 +95,7 @@ ul > li {
 
 
  @media screen and (max-width:550px) {
-    .skills td, .main-header td, img {
+    #skills td, .main-header td, img {
       display: grid;
       width: 100vw;
       margin: auto;
@@ -103,7 +104,7 @@ ul > li {
   
   
   @media screen and (max-width:550px) {
-    .education table {
+    #education table {
       content: "";
       clear: both;
       display: table;
@@ -114,7 +115,7 @@ ul > li {
 
 
   @media screen and (max-width:420px) {
-    .skills td {
+    #skills td {
       display: grid;
       width: 80vw;
       margin: auto;
